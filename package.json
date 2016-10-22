@@ -3,6 +3,8 @@
   "version": "1.2.1",
   "description": "regl is a fast functional WebGL framework.",
   "main": "dist/regl.js",
+  "module": "dist/regl.es.js",
+  "jsnext:main": "dist/regl.es.js",
   "files": [
     "regl.js",
     "lib/*",
